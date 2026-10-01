@@ -1,0 +1,470 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2775.1">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Menlo; -webkit-text-stroke: #b9b6b6; background-color: #ffffff}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Menlo; -webkit-text-stroke: #b9b6b6; background-color: #ffffff; min-height: 13.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta charset="UTF-8" /&gt;</span></p>
+<p class="p1"><span class="s1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;</span></p>
+<p class="p1"><span class="s1">&lt;title&gt;Happy Anniversary My Darling 💕&lt;/title&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;!-- Fun happy fonts --&gt;</span></p>
+<p class="p1"><span class="s1">&lt;link rel="preconnect" href="https://fonts.googleapis.com" /&gt;</span></p>
+<p class="p1"><span class="s1">&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /&gt;</span></p>
+<p class="p1"><span class="s1">&lt;link href="https://fonts.googleapis.com/css2?family=Pacifico&amp;family=Fredoka:wght@400;600&amp;family=Baloo+2:wght@500;700&amp;display=swap" rel="stylesheet" /&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;style&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>:root {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>--pink: #ff6b9d;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>--pink-dark: #e84a7f;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>--cream: #fff0f5;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>--text: #5a2a3a;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>* { box-sizing: border-box; margin: 0; padding: 0; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>body {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-family: 'Fredoka', 'Segoe UI', system-ui, sans-serif;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background: linear-gradient(135deg, #ffd6e7 0%, #ffe9f2 50%, #fff0f5 100%);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>min-height: 100vh;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: flex;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>align-items: center;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>justify-content: center;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>overflow: hidden;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: var(--text);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>text-align: center;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 20px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* Floating hearts background */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.heart-bg {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>position: fixed;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>top: -40px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 24px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>animation: fall linear infinite;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>opacity: 0.7;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>pointer-events: none;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>z-index: 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>@keyframes fall {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>to { transform: translateY(110vh) rotate(360deg); }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.scene {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>position: relative;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>z-index: 1;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>width: 100%;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>max-width: 480px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: none;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>animation: pop 0.5s ease;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.scene.active { display: block; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>@keyframes pop {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>0% { transform: scale(0.8); opacity: 0; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>100% { transform: scale(1); opacity: 1; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.card {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background: #fff;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-radius: 28px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 40px 28px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>box-shadow: 0 20px 50px rgba(232, 74, 127, 0.25);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>h1 {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-family: 'Baloo 2', cursive;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 1.9rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin-bottom: 10px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: var(--pink-dark);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>p.sub { font-size: 1.05rem; margin-bottom: 24px; line-height: 1.5; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* ---- Opening anniversary screen ---- */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.anniv {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-family: 'Pacifico', cursive;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: var(--pink-dark);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>line-height: 1.3;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.anniv .big {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 2.6rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: block;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>animation: bounceIn 1s ease;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.anniv .years {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 3.4rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: block;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin: 10px 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background: linear-gradient(90deg, #ff6b9d, #ff9a5a, #ffd166, #ff6b9d);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background-size: 300% auto;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>-webkit-background-clip: text;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background-clip: text;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>-webkit-text-fill-color: transparent;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>animation: shine 3s linear infinite;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.anniv .darling {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 2rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: block;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>animation: wiggleText 1.2s ease-in-out infinite;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>@keyframes bounceIn {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>0% { transform: scale(0.3); opacity: 0; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>60% { transform: scale(1.1); }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>100% { transform: scale(1); opacity: 1; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>@keyframes shine { to { background-position: 300% center; } }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>@keyframes wiggleText {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>0%, 100% { transform: rotate(-3deg); }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>50% { transform: rotate(3deg); }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* Buttons */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.btn {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-family: 'Fredoka', sans-serif;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border: none;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-radius: 50px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 14px 32px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 1.1rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-weight: 600;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>cursor: pointer;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin: 8px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>transition: transform 0.15s ease, box-shadow 0.15s ease;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: #fff;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background: var(--pink);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>box-shadow: 0 8px 20px rgba(255, 107, 157, 0.4);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.btn:hover { transform: translateY(-3px); box-shadow: 0 12px 26px rgba(255, 107, 157, 0.5); }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.btn:active { transform: translateY(0); }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* Envelope */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.envelope {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>cursor: pointer;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 6rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: inline-block;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>animation: wiggle 1.5s ease-in-out infinite;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>user-select: none;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>@keyframes wiggle {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>0%, 100% { transform: rotate(-5deg) scale(1); }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>50% { transform: rotate(5deg) scale(1.08); }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.tap-hint { margin-top: 16px; font-size: 0.95rem; color: var(--pink-dark); }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* The runaway NO button */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>#noBtn {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>position: relative;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>transition: all 0.15s ease;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background: #b0b0bd;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>box-shadow: 0 8px 20px rgba(0,0,0,0.12);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.choice-grid {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: flex;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>flex-wrap: wrap;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>gap: 12px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>justify-content: center;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin-top: 10px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.choice {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>flex: 1 1 130px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>min-width: 130px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background: var(--cream);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border: 3px solid transparent;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-radius: 20px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 22px 14px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>cursor: pointer;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>transition: all 0.15s ease;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 1.05rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-weight: 600;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.choice .emoji { display: block; font-size: 2.6rem; margin-bottom: 8px; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.choice:hover { transform: translateY(-4px); border-color: var(--pink); }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.choice.selected { border-color: var(--pink-dark); background: #ffe0ec; }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* Add-your-own option row */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.add-row {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: flex;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>gap: 8px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>justify-content: center;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin-top: 16px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>flex-wrap: wrap;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.add-row input[type="text"] {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-family: 'Fredoka', sans-serif;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 1rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 11px 16px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-radius: 50px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border: 2px solid var(--pink);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: var(--text);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>outline: none;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>flex: 1 1 180px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>max-width: 240px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.add-btn {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-family: 'Fredoka', sans-serif;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border: none;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-radius: 50px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 11px 20px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 1rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-weight: 600;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>cursor: pointer;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: #fff;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background: var(--pink-dark);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>input[type="date"] {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-family: 'Fredoka', sans-serif;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 1.1rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 12px 16px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-radius: 14px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border: 2px solid var(--pink);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: var(--text);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin: 10px 0 20px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>width: 100%;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>max-width: 260px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.summary {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background: var(--cream);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>border-radius: 18px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 20px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin: 20px 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>text-align: left;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>line-height: 1.9;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 1.1rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.summary b { color: var(--pink-dark); }</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>.back-link {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: inline-block;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin-top: 14px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: var(--pink-dark);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 0.9rem;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>cursor: pointer;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>text-decoration: underline;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1">&lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;!-- Scene 0: Anniversary opening --&gt;</span></p>
+<p class="p1"><span class="s1">&lt;section class="scene active" id="scene-anniv"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="card"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="anniv"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;span class="big"&gt;Happy Anniversary&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;span class="years"&gt;2 Years&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;span class="darling"&gt;My Darling 💕&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;br /&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;button class="btn" onclick="goTo('scene-mail')"&gt;I have something for you 💌&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;!-- Scene 1: Envelope --&gt;</span></p>
+<p class="p1"><span class="s1">&lt;section class="scene" id="scene-mail"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="card"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="envelope" id="envelope" onclick="goTo('scene-ask')"&gt;💌&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="tap-hint"&gt;You've got mail... tap to open 💕&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;!-- Scene 2: Yes or No --&gt;</span></p>
+<p class="p1"><span class="s1">&lt;section class="scene" id="scene-ask"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="card"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Will you go on a date with me? 🥰&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="sub"&gt;Pretty please? 👉👈&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;button class="btn" onclick="goTo('scene-food')"&gt;Yes! 💗&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;button class="btn" id="noBtn"&gt;No&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;!-- Scene 3: Food --&gt;</span></p>
+<p class="p1"><span class="s1">&lt;section class="scene" id="scene-food"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="card"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Yay! What should we eat? 🍽️&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="sub"&gt;Pick one — or add your own idea!&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="choice-grid" id="foodChoices"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="choice" data-value="Sushi 🍣"&gt;&lt;span class="emoji"&gt;🍣&lt;/span&gt;Sushi&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="choice" data-value="Dimsum 🥟"&gt;&lt;span class="emoji"&gt;🥟&lt;/span&gt;Dimsum&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="add-row"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;input type="text" id="foodInput" placeholder="Add your own food... (optional)" /&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;button class="add-btn" onclick="addChoice('foodChoices','foodInput','🍴')"&gt;+ Add&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;br /&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;button class="btn" onclick="nextFromFood()"&gt;Next ➡️&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;!-- Scene 4: Date --&gt;</span></p>
+<p class="p1"><span class="s1">&lt;section class="scene" id="scene-date"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="card"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h1&gt;When are you free? 📅&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="sub"&gt;Pick the perfect day&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;input type="date" id="dateInput" /&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;br /&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;button class="btn" onclick="nextFromDate()"&gt;Next ➡️&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;!-- Scene 5: Outfit --&gt;</span></p>
+<p class="p1"><span class="s1">&lt;section class="scene" id="scene-outfit"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="card"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h1&gt;What's the vibe? 👗&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="sub"&gt;Pick one — or add your own!&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="choice-grid" id="outfitChoices"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="choice" data-value="Casual 👕"&gt;&lt;span class="emoji"&gt;👕&lt;/span&gt;Casual&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="choice" data-value="Cute &amp;amp; Dressy 👗"&gt;&lt;span class="emoji"&gt;👗&lt;/span&gt;Cute &amp;amp; Dressy&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="choice" data-value="Elegant 👠"&gt;&lt;span class="emoji"&gt;👠&lt;/span&gt;Elegant&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="add-row"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;input type="text" id="outfitInput" placeholder="Add your own vibe... (optional)" /&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;button class="add-btn" onclick="addChoice('outfitChoices','outfitInput','✨')"&gt;+ Add&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;br /&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;button class="btn" onclick="finish()"&gt;Finish 💖&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;!-- Scene 6: Summary --&gt;</span></p>
+<p class="p1"><span class="s1">&lt;section class="scene" id="scene-done"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="card"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h1&gt;It's a date! 🎉💕&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="sub"&gt;Here's our plan:&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="summary"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>🍽️ Food: &lt;b id="s-food"&gt;—&lt;/b&gt;&lt;br /&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>📅 Date: &lt;b id="s-date"&gt;—&lt;/b&gt;&lt;br /&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>👗 Outfit: &lt;b id="s-outfit"&gt;—&lt;/b&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="sub"&gt;Happy 2 years, I love you so much! 🥰💖&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;span class="back-link" onclick="restart()"&gt;Start over&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/section&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">&lt;script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>const answers = { food: null, date: null, outfit: null };</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>function goTo(id) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>document.querySelectorAll('.scene').forEach(s =&gt; s.classList.remove('active'));</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>document.getElementById(id).classList.add('active');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* ---- Runaway NO button ---- */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>const noBtn = document.getElementById('noBtn');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>function dodge() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const pad = 20;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const maxX = window.innerWidth - noBtn.offsetWidth - pad;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const maxY = window.innerHeight - noBtn.offsetHeight - pad;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const x = Math.max(pad, Math.random() * maxX);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const y = Math.max(pad, Math.random() * maxY);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>noBtn.style.position = 'fixed';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>noBtn.style.left = x + 'px';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>noBtn.style.top = y + 'px';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>noBtn.addEventListener('mouseenter', dodge);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>noBtn.addEventListener('click', dodge);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>noBtn.addEventListener('touchstart', function (e) { e.preventDefault(); dodge(); });</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* ---- Choice selection (food &amp; outfit) ---- */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>function wireChoice(choiceEl, containerId, key) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>choiceEl.addEventListener('click', () =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>const container = document.getElementById(containerId);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>container.querySelectorAll('.choice').forEach(x =&gt; x.classList.remove('selected'));</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>choiceEl.classList.add('selected');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>answers[key] = choiceEl.dataset.value;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>});</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>const keyFor = { foodChoices: 'food', outfitChoices: 'outfit' };</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>['foodChoices', 'outfitChoices'].forEach(id =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>document.getElementById(id).querySelectorAll('.choice')</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>.forEach(c =&gt; wireChoice(c, id, keyFor[id]));</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>});</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* ---- Add a custom option ---- */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>function addChoice(containerId, inputId, emoji) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const input = document.getElementById(inputId);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const text = input.value.trim();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>if (!text) { alert('Type something first! 😊'); return; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const container = document.getElementById(containerId);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const div = document.createElement('div');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>div.className = 'choice';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>div.dataset.value = text + ' ' + emoji;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>div.innerHTML = '&lt;span class="emoji"&gt;' + emoji + '&lt;/span&gt;' + escapeHtml(text);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>container.appendChild(div);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>wireChoice(div, containerId, keyFor[containerId]);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>div.click(); // auto-select the new option</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>input.value = '';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>function escapeHtml(str) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>return str.replace(/[&amp;&lt;&gt;"']/g, m =&gt; ({</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>'&amp;': '&amp;amp;', '&lt;': '&amp;lt;', '&gt;': '&amp;gt;', '"': '&amp;quot;', "'": '&amp;#39;'</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}[m]));</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>function nextFromFood() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>if (!answers.food) { alert('Pick something yummy first! 😋'); return; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>goTo('scene-date');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>function nextFromDate() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const val = document.getElementById('dateInput').value;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>if (!val) { alert('Pick a day for our date! 📅'); return; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>answers.date = val;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>goTo('scene-outfit');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>function finish() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>if (!answers.outfit) { alert('Pick an outfit vibe! 👗'); return; }</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>document.getElementById('s-food').textContent = answers.food;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>document.getElementById('s-date').textContent = formatDate(answers.date);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>document.getElementById('s-outfit').textContent = answers.outfit;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>goTo('scene-done');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>function formatDate(d) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const dt = new Date(d + 'T00:00:00');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>return dt.toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>function restart() {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>answers.food = answers.date = answers.outfit = null;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>document.getElementById('dateInput').value = '';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>document.querySelectorAll('.choice').forEach(c =&gt; c.classList.remove('selected'));</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>noBtn.style.position = 'relative';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>noBtn.style.left = noBtn.style.top = '';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>goTo('scene-anniv');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>/* ---- Floating hearts background ---- */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>const hearts = ['💕', '💖', '💗', '🌸', '💘'];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>setInterval(() =&gt; {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const h = document.createElement('div');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>h.className = 'heart-bg';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>h.textContent = hearts[Math.floor(Math.random() * hearts.length)];</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>h.style.left = Math.random() * 100 + 'vw';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>h.style.animationDuration = (4 + Math.random() * 4) + 's';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>h.style.fontSize = (18 + Math.random() * 20) + 'px';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>document.body.appendChild(h);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>setTimeout(() =&gt; h.remove(), 8000);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>}, 500);</span></p>
+<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>
